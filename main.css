@@ -1,0 +1,22 @@
+	<style type="text/css">
+	.top-banner-row, .summary-row{
+	display:none;
+	}
+
+	.panels-flexible-row-inside,.panels-flexible-region-inside {
+	max-width:100% !important;
+	padding-left:unset !important;
+	padding-right:unset !important;
+	padding-top:unset !important;
+	}
+
+	.sections{
+		height: 2000px;
+	    background-attachment: fixed;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-image: url(https://quora.wpengine.com/wp-content/uploads/2019/03/photo-1527672809634-04ed36500acd-1-e1552766470359.jpeg);
+	    background-position: center;
+	}
+
+	</style>
