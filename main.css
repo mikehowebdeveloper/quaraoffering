@@ -1,4 +1,6 @@
 	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+	
 	.top-banner-row, .summary-row{
 	display:none;
 	}
@@ -10,6 +12,14 @@
 	padding-top:unset !important;
 	}
 
+	.field--name-body ul {
+		margin-top:unset;
+	}
+
+	.field--name-body ul li{
+		list-style:none;
+	}
+
 	.sections{
 		height: 2000px;
 	    background-attachment: fixed;
@@ -18,5 +28,46 @@
 	    background-image: url(https://quora.wpengine.com/wp-content/uploads/2019/03/photo-1527672809634-04ed36500acd-1-e1552766470359.jpeg);
 	    background-position: center;
 	}
+
+	.nav{
+		display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	    width: 80%;
+	    margin: 0 auto;
+	    padding-top: 20px;
+	}
+
+	.nav-link img{
+		max-width: 150px;
+	}
+
+	.nav-link{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+	}
+
+	a, h1, h2, h3, h4, h5, p{
+		 font-family: 'Poppins', sans-serif;
+	}
+
+	.section_one{
+		min-height: calc(100vh - 78px);
+		background-color:blue;
+	}
+
+	.section_one .row{
+		min-height: calc(100vh - 78px);
+	}
+
+
+
+
+
+
+
+
 
 	</style>
