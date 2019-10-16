@@ -1,96 +1,152 @@
-	<style type="text/css">
-	@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-	
-	.top-banner-row, .summary-row{
-	display:none;
-	}
-
-	.panels-flexible-row-inside, .mission-row .panels-flexible-region-inside{
-	max-width:100% !important;
-	padding-left:unset !important;
-	padding-right:unset !important;
-	padding-top:unset !important;
-	}
-
-	.field--name-body ul {
-		margin-top:unset;
-	}
-
-	.field--name-body ul li{
-		list-style:none;
-	}
-
-	.sections{
-		height: 2000px;
-	    background-attachment: fixed;
-	    background-size: cover;
-	    background-repeat: no-repeat;
-	    background-image: url(https://quora.wpengine.com/wp-content/uploads/2019/03/photo-1527672809634-04ed36500acd-1-e1552766470359.jpeg);
-	    background-position: center;
-	}
+		<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 
-	.nav{
-		display: flex;
-	    justify-content: space-around;
-	    align-items: center;
-	    padding-top: 20px;
-	    padding-bottom: 20px;
-	    padding-left:0px;
-	    position: sticky;
-	    margin-left:-15px;
-	    margin-right:-15px;
-	    top: 75px;
-	    background: rgba(0, 0, 0, .3);
-	    z-index: 25;
-	    margin-left: -15px;
-	    margin-right: -15px;
-	}
+		html{
+			scroll-behavior: smooth;
+		}
+		
+		.top-banner-row, .summary-row{
+		display:none;
+		}
 
-	.nav-link img{
-		max-width: 150px;
-	}
+		.panels-flexible-row-inside, .mission-row .panels-flexible-region-inside{
+		max-width:100% !important;
+		padding-left:unset !important;
+		padding-right:unset !important;
+		padding-top:unset !important;
+		}
 
-	.nav-link{
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    text-transform: uppercase;
-	}
+		.field--name-body ul {
+			margin-top:unset;
+		}
 
-	a, h1, h2, h3, h4, h5, p, div{
-		 font-family: 'Poppins', sans-serif;
-	}
+		.field--name-body ul li{
+			list-style:none;
+		}
 
-	.section_one{
-		min-height: calc(100vh - 78px);
-	}
+		.sections{
+			height: 2000px;
+		    background-attachment: fixed;
+		    background-size: cover;
+		    background-repeat: no-repeat;
+		    background-image: url(https://quora.wpengine.com/wp-content/uploads/2019/03/photo-1527672809634-04ed36500acd-1-e1552766470359.jpeg);
+		    background-position: center;
+		}
 
-	.section_one .row{
-		min-height: calc(100vh - 78px);
-	}
 
-	.section_one .header{
-		font-size: 8rem;
-	    line-height: 100%;
-	    letter-spacing: -10px;
-	    color: #ff900a;
+		.nav{
+			display: flex;
+		    justify-content: space-around;
+		    align-items: center;
+		    padding-top: 20px;
+		    padding-bottom: 20px;
+		    padding-left:0px;
+		    position: sticky;
+		    margin-left:-15px;
+		    margin-right:-15px;
+		    top: 75px;
+		    background: rgba(0, 0, 0, .3);
+		    z-index: 25;
+		    margin-left: -15px;
+		    margin-right: -15px;
+		}
 
-	}
+		.nav-link img{
+			max-width: 150px;
+		}
 
-	.section_one .subheader{
-		font-size: 2rem;
-	    letter-spacing: 5px;
-	    padding-left: 10px;
+		.nav-link{
+	    text-align: center;
+	    font-size: 20px;
 	    color: white;
-	}
+	    text-transform: uppercase;
+		}
 
-	.section_one .description{
-		color: white;
-	    padding-left: 15px;
-	    font-size: 1.5rem;
-	    line-height: 115%;
-	}
+		a, h1, h2, h3, h4, h5, p, div{
+			 font-family: 'Poppins', sans-serif;
+		}
+
+		b{
+			font-size:1.3rem;
+			color:#ff900a;
+		}
+
+		.section{
+			min-height: calc(100vh - 78px);
+		}
+
+		.section .row{
+			min-height: calc(100vh - 78px);
+		}
+
+		.section_one .header{
+			font-size: 8rem;
+		    line-height: 100%;
+		    letter-spacing: -10px;
+		    color: #ff900a;
+
+		}
+
+		.section_one .subheader{
+			font-size: 2rem;
+		    letter-spacing: 5px;
+		    padding-left: 10px;
+		    color: white;
+		}
+
+		.section_one .description{
+			color: white;
+		    padding-left: 15px;
+		    font-size: 1.5rem;
+		    line-height: 115%;
+		}
+
+		.section_two .row{
+			background:rgba(51,43,64,0.5);
+			color:white;
+			justify-content: space-around;
+		    align-items: center;
+		}
+
+		.section_two .left{
+			padding-top:30px;
+			padding-bottom: 30px;
+			font-size:1.2rem;
+		}
+		.section_two .middle{
+			text-align: center;
+			font-size:1.5rem;
+			padding-top:30px;
+			padding-bottom: 30px;
+		}
+		.section_two .right{
+			padding-top:30px;
+			padding-bottom: 30px;
+			font-size:1.2rem;
+		}
+
+		.buttoncover{
+			margin-top:15px;
+		}
+
+		.button{
+		    background: white;
+		    color: #ff900a;
+		    padding: 10px;
+		    border-radius: 15px;
+		}
+
+		.button:hover{
+			background:#ff900a;
+			color:white;
+
+		}
+
+		.right ul li{
+			color:white;
+			list-style: circle;
+		}
 
 
 
@@ -100,4 +156,4 @@
 
 
 
-	</style>
+		</style>
