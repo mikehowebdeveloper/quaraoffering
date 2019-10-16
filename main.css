@@ -1,8 +1,7 @@
 		<style type="text/css">
 		@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-
-		html{
+		html:root{
 			scroll-behavior: smooth;
 		}
 		
@@ -102,6 +101,15 @@
 		    line-height: 115%;
 		}
 
+		.section_two{
+		    -webkit-transform: translateZ( 0 );
+		    transform: translateZ( 0 );
+		    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+		    transition: transform 0.6s ease-in-out;
+		    -webkit-backface-visibility: hidden;
+		    backface-visibility: hidden;
+		}
+
 		.section_two .row{
 			background:rgba(51,43,64,0.5);
 			color:white;
@@ -147,13 +155,6 @@
 			color:white;
 			list-style: circle;
 		}
-
-
-
-
-
-
-
 
 
 		</style>
