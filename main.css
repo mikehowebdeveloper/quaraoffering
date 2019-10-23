@@ -12,6 +12,27 @@
 		padding-top:unset !important;
 		}
 
+		.section p{
+			color:unset;
+			font-family: "Poppins", sans-serif;
+			font-size:1.2rem;
+		}
+
+		.section ul{
+			color:white;
+		}
+
+		.section ul li{
+			color:white;
+			list-style: none;
+		}
+
+
+		.description p {
+		    color: unset;
+		    margin: unset;
+		}
+
 		.field--name-body ul {
 			margin-top:unset;
 		}
@@ -32,6 +53,8 @@
 		    scrollbar-width: none; /* Firefox */
 		    -ms-overflow-style: none;  /* IE 10+ */
 		    scroll-behavior: smooth;
+		    height: 350vh;
+		    overflow-y: scroll;
 		}
 		.body::-webkit-scrollbar { /* WebKit */
 			scroll-behavior: smooth;
@@ -78,11 +101,12 @@
 
 		.section{
 			min-height: calc(100vh - 78px);
-			margin-bottom:100px;
 		}
 
 		.section .row{
 			min-height: calc(100vh - 78px);
+			padding-top:50px;
+			padding-bottom:100px;
 		}
 
 		.section_one .header{
@@ -117,10 +141,20 @@
 		}
 
 		.section_two .row{
-			background:rgb(28,18,37,0.4);
+			background:rgba(28,18,37,0.4);
 			color:white;
 			justify-content: space-evenly;
-		    align-items: center;
+		    text-align: center;
+		}
+
+		.section_two .row b{
+			color: white;
+		}
+
+		.section_two .row img{
+			max-width: 120px;
+			padding: 20px 0;
+			margin: 20px 0;
 		}
 
 		.section_two .left{
@@ -134,6 +168,12 @@
 			padding-top:30px;
 			padding-bottom: 30px;
 		}
+
+		.section_two .middle b{
+			font-size:1.6rem;
+			color:#ff900a;
+		}
+
 		.section_two .right{
 			padding-top:30px;
 			padding-bottom: 30px;
@@ -141,14 +181,17 @@
 		}
 
 		.buttoncover{
-			margin-top:15px;
+			margin-top:35px;
 		}
 
 		.button{
-		    background: white;
-		    color: #ff900a;
-		    padding: 10px;
-		    border-radius: 15px;
+			font-weight: bold;
+		    text-transform: uppercase;
+		    font-size: 1.2rem;
+		    padding: 20px;
+		    background: #ff900a;
+		    color:#1C222E;
+		    margin-top: 20px;
 		}
 
 		.button:hover{
@@ -162,17 +205,49 @@
 			list-style: circle;
 		}
 
-		.section_three .row{
-			background:rgba(0,0,0,0.5);
+		.section_three_new .row{
+			background:#0C0017;
 			color:white;
 		    align-items: center;
+
+		}
+
+		.section_three_new .row .header{
+			font-size:1.8rem;
+		}
+
+		.section_three_new .row .subheader{
+			font-size:1.2rem;
+			color:#ff900a;
+			font-weight: bold;
+		}
+
+		.section_three_new .row ul{
+			list-style: none;
+			padding-left:0px;
+		}
+
+		.section_three_new .row ul li span{
+			color:#ff900a;
+			font-size:1.5rem;
+		}
+
+		.section_three .row{
+			background:#0C0017;
+			color:white;			
+background-image:linear-gradient(90deg, rgba(12,0,23,1) 0%, rgba(12,0,23,0) 70%),url("https://quaralife.com/wp-content/uploads/2019/10/aron-visuals-322314-unsplash.jpg");
+			padding-bottom: 100px;
+		    background-repeat: no-repeat;
+		    background-size: 60% 100%;
+		    background-position: right;
+
 		}
 
 		.section_three .header{
-			font-size: 1.8rem;
+			font-size: 2.5rem;
 			color: orange;
 			padding: 20px 0;
-			font-weight: bold;					
+			letter-spacing: 1.5px;				
 		}
 
 		.section_three .description{
@@ -189,8 +264,6 @@
 
 		.section_three .pictures{
 			display: flex;
-			flex-direction: column;
-			align-items: center;
 		}
 
 		.section_three .picture{
@@ -200,28 +273,39 @@
 
 		.section_three .picture img{
 			max-width: 200px;
-			padding-bottom:15px;
+			border-radius: 50%;
+			margin:15px 25px;
 		}
 
-		.section_three .picture span{
-			position: absolute;
-		    bottom: 15;
-		    background: rgba(0,0,0,0.5);
-		    left: 0;
-		    padding: 10px 5px;
+		.section_three .picture p{
+			text-align: center;
 		}
 
 		.section_four .row{
-			background:rgb(28,18,37,0.4);
+			background:rgba(28,18,37,0.4);
 			color:white;
 		    align-items: center;
+		    padding-bottom:100px;
 		}
 
+		.section_four .row .video{
+		    margin-top: -100px;
+		    margin-left: auto;
+		    width: 95%;
+		    max-width: 800px;
+		    margin-right: auto;
+		}
+
+		video {
+		  width: 100%    !important;
+		  height: auto   !important;
+		}
+
+
 		.section_four .header{
-			font-size: 1.8rem;
+			font-size: 2.4rem;
 			color: orange;
 			padding: 20px 0;
-			font-weight: bold;
 			text-align: center;					
 		}
 
@@ -236,18 +320,96 @@
 			font-family: 'Poppins', sans-serif;			
 		}
 
+		.section_four .row ul{
+			list-style: none;
+			padding-left:0px;
+		}
+
+		.section_four .row ul li{
+			padding-bottom:15px;
+		}
+
+		.section_four .row ul li span{
+			color:#ff900a;
+			font-size:1.5rem;
+		}
+
+		.section_four .row .subheader{
+			color:#ff900a;
+			font-size:1.2rem;
+			font-weight: bold;
+		}
+
+.section_four_new .row{
+			background:#0C0017;
+			color:white;			
+background-image:linear-gradient(-90deg, rgba(12,0,23,1) 0%, rgba(12,0,23,0) 70%),url("https://quaralife.com/wp-content/uploads/2019/10/sebastian-leon-prado-438756-unsplash.jpg");
+			padding-bottom: 100px;
+		    background-repeat: no-repeat;
+		    background-size: 60% 100%;
+		    background-position: left;
+
+		}
+
+		.section_four_new .row ul{
+			list-style: none;
+			padding-left:0px;
+		}
+
+		.section_four_new .row ul li{
+			padding-bottom:15px;
+		}
+
+		.section_four_new .row ul li span{
+			color:#ff900a;
+			font-size:1.5rem;
+		}
+
+		.section_four_new .header{
+			font-size: 2.5rem;
+			color: orange;
+			padding: 20px 0;
+			letter-spacing: 1.5px;				
+		}
+
+		.section_four_new .description{
+			font-size: 1.3rem;				
+		}
+
+		.section_four_new .subheader{
+			font-size: 1.8rem;
+			text-align: center;
+			color: orange;
+			padding: 20px 0;
+			font-weight: bold;					
+		}
+
 		.section_five .row{
 			background:rgba(0,0,0,0.5);
 			color:white;
-		    align-items: center;
 		}
 
 		.section_five .header{
 			font-size: 1.8rem;
-			color: orange;
+			color: white;
 			padding: 20px 0;
-			font-weight: bold;
-			text-align: center;					
+			text-align: center;
+			max-width: 800px;
+			margin:0 auto;					
+		}
+
+		.section_five .header span{
+			color:#ff900a;			
+		}
+
+		.section_five .boxeslist{
+			text-align: center;
+			padding-top:25px;			
+		}
+
+		.section_five .boxeslist img{
+			max-width: 120px;
+			margin:15px 0;			
 		}
 
 		.section_five .description{
@@ -261,20 +423,46 @@
 		}
 
 
-		.section_six .row{
-			background:rgb(28,18,37,0.4);
+
+		.section_six {
+			background:rgba(28,18,37,0.4);
 			color:white;
+			background:#0C0017;
+			color:white;			
+			background-image:linear-gradient(to bottom,	 rgba(12,0,23,1) 0%, rgba(12,0,23,0.5) 100%),url("https://quaralife.com/wp-content/uploads/2019/10/oldskool-photography-128436-unsplash.jpg");
+			padding-bottom: 100px;
+		    background-repeat: no-repeat;
+		    background-size: cover;
 		}
 
+		.section_six .row{
+			padding-top:unset;
+		}
+
+		.section_six .boxcontainer{
+			background:#4e2a6f40;
+			margin-top:20px;
+		}		
 		.section_six .header{
+		    font-size: 2.5rem;
+		    color: orange;
+		    display: block;
+		    text-align: center;
+		    width: 100%;
+		    padding-top: 50px;
+		    letter-spacing: 1px;			
+		}
+
+		.section_six .subtitle{
 		    font-size: 1.8rem;
 		    color: orange;
-		    padding: 20px 0;
 		    font-weight: bold;
 		    display: block;
 		    text-align: center;
 		    width: 100%;
-		    padding-top: 50px;			
+		    padding-top: 20px;
+		    padding-bottom: 15px;	
+
 		}
 
 		.section_six .description{
@@ -290,11 +478,15 @@
 		.section_six .boxes{
 		    border: 1px solid white;
 		    padding-top: 25px;
-		    color:black;
+		    color:white;
 		}
 
 		.section_six .boxes ul{
-			color:black;
+			color:white;
+		}
+
+		.section_six .boxes ul li{
+			list-style: none;
 		}
 
 		.section_six .boxes ul span{
@@ -302,6 +494,13 @@
 			right:25px;
 		}
 
+		.section_six .last{
+			background-size: 100px;
+		    background-repeat: no-repeat;
+		    background-position: 95% 95%;
+			background-image:url("https://quaralife.com/wp-content/uploads/2019/10/Quara-Logo-SensorsForLife-WHITE-Updated.png");
+		}
+/*
 		.boxes:nth-child(-n+3) {
 		  background:rgba(255,255,255,0.7);
 		}
@@ -312,6 +511,49 @@
 
 		.boxes:nth-child(n+5) {
 		  background:rgba(255,255,255,0.3);
+		}*/
+
+		.section_seven_new .row{
+			background:rgba(0,0,0,0.5);
+			color:white;
+		}
+
+		.section_seven_new .header{
+			color:#ff900a;
+			text-align: center;
+			font-size:2rem;
+			letter-spacing: 1.5px;
+			padding:50px 0px 25px 0;
+		}
+
+		.section_seven_new .subheader{
+			color:white;
+		}
+
+		.section_seven_new .teammembers{
+			color:white;
+			text-align: center;
+			padding-top:25px;
+		}
+
+
+		.section_seven_new .teammembers img{
+			border-radius: 50%;
+			max-width: 150px;
+		}
+
+
+		.section_seven_new .teammembers .name{
+			color:#ff900a;
+			text-align: center;
+			font-size:1.3rem;
+			padding-top:20px;
+			text-transform: uppercase;
+		}
+
+		.section_seven_new .teammembers .title{
+			text-align: center;
+			font-size:1.1rem;
 		}
 
 		.section_seven .row{
@@ -332,6 +574,12 @@
 			font-size: 1.3rem;				
 		}
 
+		.section_seven .warningtext{
+			font-size: 1.2rem;	
+			padding-top:15px;			
+		}
+
+
 		.section_eight .row{
 			background:rgba(28,18,37,0.4);
 			color:white;
@@ -349,4 +597,5 @@
 		.section_eight .description{
 			font-size: 1.3rem;				
 		}
+
 		</style>
